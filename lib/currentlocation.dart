@@ -5,14 +5,14 @@ import 'package:geocoding/geocoding.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
-class TestScreen extends StatefulWidget {
-  const TestScreen({Key? key}) : super(key: key);
+class CurrentlocationScreen extends StatefulWidget {
+  const CurrentlocationScreen({Key? key}) : super(key: key);
 
   @override
-  State<TestScreen> createState() => _TestScreenState();
+  State<CurrentlocationScreen> createState() => _CurrentlocationScreenState();
 }
 
-class _TestScreenState extends State<TestScreen> {
+class _CurrentlocationScreenState extends State<CurrentlocationScreen> {
   String? currentaddress;
   Position? currentposition;
 
